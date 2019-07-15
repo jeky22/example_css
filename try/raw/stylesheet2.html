@@ -3,81 +3,110 @@
 
 <head>
     <title>Sub HTML</title>
+    <link rel="stylesheet" href="./css/stylesheet2.css">
+    <style>
+
+    </style>
 </head>
 
 <body>
-    <h1>Welcome to My <a href="../index.html">Homepage</a></h1>
-    <p>Use the menu to select different Stylesheets</p>
-    <p>
-        <ul>
-            <li><a href="./stylesheet1.html">Stylesheet1 </a></li>
-            <li><a href="./stylesheet2.html">Stylesheet2 </a></li>
-            <li><a href="./stylesheet3.html">Stylesheet3 </a></li>
-            <li><a href="./stylesheet4.html">Stylesheet4 </a></li>
-            <li><a href="./stylesheetNo.html">No Stylesheet </a></li>
-        </ul>
-    </p>
-    <h1>Same Page Different Stylesheets</h1>
-    <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can change the 
-        layout of this page by selecting different stylesheets in the menu, or by selecting one of the following links:
-    </p>
-        <a href="./stylesheet1.html">Stylesheet 1</a>,
-        <a href="./stylesheet2.html">Stylesheet 2</a>,
-        <a href="./stylesheet3.html">Stylesheet 3</a>,
-        <a href="./stylesheet4.html">Stylesheet 4</a>,
-        <a href="./stylesheetNo.html">NO Stylesheet </a>
+    <div class="row header">
+        <h1 class="main_title">Welcome to My <a href="../index.html">Homepage</a></h1>
+        <p class="sub_title">Use the menu to select different Stylesheets</p>
+    </div>
+    <div class="row middle">
+        <div class="column side">
+            <ul>
+                <li><a href="./stylesheet1.html">Stylesheet1 </a></li>
+                <li><a href="./stylesheet2.html">Stylesheet2 </a></li>
+                <li><a href="./stylesheet3.html">Stylesheet3 </a></li>
+                <li><a href="./stylesheet4.html">Stylesheet4 </a></li>
+                <li><a href="./stylesheetNo.html">No Stylesheet </a></li>
+            </ul>
+        </div>
+        <div class="column center">
+            <h1>Same Page Different Stylesheets</h1>
+            <p>This is a demonstration of how different stylesheets can change the layout of your HTML page. You can
+                change
+                the
+                layout of this page by selecting different stylesheets in the menu, or by selecting one of the following
+                links:
+            </p>
+            <a href="./stylesheet1.html">Stylesheet 1</a>,
+            <a href="./stylesheet2.html">Stylesheet 2</a>,
+            <a href="./stylesheet3.html">Stylesheet 3</a>,
+            <a href="./stylesheet4.html">Stylesheet 4</a>,
+            <a href="./stylesheetNo.html">NO Stylesheet </a>
 
-        <h2>Table</h2>
-        <table id="customers" border=1>
-            <tbody>
-                <tr>
-                    <th>Company</th>
-                    <th>Contact</th>
-                    <th>Country</th>
-                </tr>
-                <tr>
-                    <td>Alfreds Futterkiste</td>
-                    <td>Maria Anders</td>
-                    <td>Germany</td>
-                </tr>
-                <tr class="alt">
-                    <td>Berglunds snabbköp</td>
-                    <td>Christina Berglund</td>
-                    <td>Sweden</td>
-                </tr>
-                <tr>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                </tr>
-                <tr class="alt">
-                    <td>Ernst Handel</td>
-                    <td>Roland Mendel</td>
-                    <td>Austria</td>
-                </tr>
-                <tr>
-                    <td>Island Trading</td>
-                    <td>Helen Bennett</td>
-                    <td>UK</td>
-                </tr>
-                <tr class="alt">
-                    <td>Königlich Essen</td>
-                    <td>Philip Cramer</td>
-                    <td>Germany</td>
-                </tr>
-                <tr>
-                    <td>Laughing Bacchus Winecellars</td>
-                    <td>Yoshi Tannamuri</td>
-                    <td>Canada</td>
-                </tr>
-                <tr class="alt">
-                    <td>Magazzini Alimentari Riuniti</td>
-                    <td>Giovanni Rovelli</td>
-                    <td>Italy</td>
-                </tr>
-            </tbody>
-        </table>
+            <h2>Table</h2>
+            <table id="customers" border=1>
+                <tbody>
+                    <tr>
+                        <th>Company</th>
+                        <th>Contact</th>
+                        <th>Country</th>
+                    </tr>
+                    <tr>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr class="alt">
+                        <td>Berglunds snabbköp</td>
+                        <td>Christina Berglund</td>
+                        <td>Sweden</td>
+                    </tr>
+                    <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                    </tr>
+                    <tr class="alt">
+                        <td>Ernst Handel</td>
+                        <td>Roland Mendel</td>
+                        <td>Austria</td>
+                    </tr>
+                    <tr>
+                        <td>Island Trading</td>
+                        <td>Helen Bennett</td>
+                        <td>UK</td>
+                    </tr>
+                    <tr class="alt">
+                        <td>Königlich Essen</td>
+                        <td>Philip Cramer</td>
+                        <td>Germany</td>
+                    </tr>
+                    <tr>
+                        <td>Laughing Bacchus Winecellars</td>
+                        <td>Yoshi Tannamuri</td>
+                        <td>Canada</td>
+                    </tr>
+                    <tr class="alt">
+                        <td>Magazzini Alimentari Riuniti</td>
+                        <td>Giovanni Rovelli</td>
+                        <td>Italy</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="column side bar">
+            <h3>
+                Side-Bar
+            </h3>
+            asdasdasdas dsadasdasdas dasdasdasdas
+            dasddasdasdasdasd asdasdasdasdasd
+            asdasdsad sad asdasdadas d
+        </div>
+    </div>
+    <div class="row footer">
+            sddasdasdasdasd asdasdsddasdasdasda
+            sd asdasdsdsddasdasdasdasd asd
+            asdsddasdasdsddasdasd
+            asdasd asdasdasdasd asdasdsddasda
+            sdasdasd asdasdsddasdasdasdasd
+             asdasddasdasdasdasd asdasd
+    </div>
 
-    </body>
+</body>
 
 </html>
